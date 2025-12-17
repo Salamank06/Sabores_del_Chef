@@ -1,9 +1,4 @@
-# Semana 07: Paquetes y Excepciones - Escuela de Cocina
-
-## 👤 Información del Estudiante
-- **Nombre**: Santiago Salamanca
-- **Dominio**: Escuela de Cocina - Sabores del Chef
-- **Fecha**: 17/12/2024
+# Semana 07: Paquetes y Excepciones
 
 ## 📝 Descripción del Proyecto
 
