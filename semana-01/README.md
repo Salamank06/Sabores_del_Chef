@@ -31,3 +31,4 @@ Los documentos de análisis se encuentran en la carpeta `entregables/semana01/`:
 - `actividad-01-identificacion-objetos.md`
 - `actividad-02-comparacion-paradigmas.md`
 
+
