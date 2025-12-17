@@ -21,8 +21,8 @@ Esta semana se trabajó en la identificación de objetos del mundo real en el do
 
 ```bash
 cd semana-01
-javac *.java
-java Main
+javac src/*.java
+java -cp src Main
 ```
 
 ## 📚 Entregables

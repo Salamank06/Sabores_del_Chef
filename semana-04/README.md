@@ -44,13 +44,13 @@ Implementación de jerarquía de clases y herencia para el dominio de la Escuela
 ### Compilación
 
 ```bash
-javac *.java
+javac src/*.java
 ```
 
 ### Ejecución
 
 ```bash
-java Main
+java -cp src Main
 ```
 
 ## Salida Esperada

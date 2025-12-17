@@ -143,21 +143,21 @@ Sistema de gestión de contenidos educativos para una escuela de cocina que impl
 
 ```bash
 # Opción 1: Compilar todo desde la raíz del proyecto
-javac -encoding UTF-8 semana-06/abstractas/*.java semana-06/interfaces/*.java semana-06/implementaciones/*.java semana-06/Main.java
+javac -encoding UTF-8 semana-06/src/abstractas/*.java semana-06/src/interfaces/*.java semana-06/src/implementaciones/*.java semana-06/src/Main.java
 
 # Opción 2: Desde dentro de semana-06
 cd semana-06
-javac -encoding UTF-8 abstractas/*.java interfaces/*.java implementaciones/*.java Main.java
+javac -encoding UTF-8 src/abstractas/*.java src/interfaces/*.java src/implementaciones/*.java src/Main.java
 ```
 
 ### Ejecutar
 
 ```bash
 # Desde la raíz del proyecto
-java semana-06.Main
+java -cp semana-06/src Main
 
 # Desde dentro de semana-06
-java Main
+java -cp src Main
 ```
 
 **Nota:** El flag `-encoding UTF-8` es necesario para compilar correctamente en Windows debido a caracteres especiales (ñ, á, etc.).
@@ -383,19 +383,21 @@ Total de contenidos con capacidad de reserva: 2
 ```
 semana-06/
 ├── README.md                              (Este archivo)
-├── ANALISIS.md                            (Análisis de diseño)
-├── Main.java                              (Programa de demostración)
-├── abstractas/
-│   └── Content.java                       (Clase abstracta padre)
-├── interfaces/
-│   ├── Calificable.java                   (Interface de calificaciones)
-│   ├── Certificable.java                  (Interface de certificados)
-│   └── Reservable.java                    (Interface de reservas)
-└── implementaciones/
-    ├── Chef.java                          (Clase auxiliar)
-    ├── CursoOnline.java                   (Curso virtual)
-    ├── CursoPresencial.java               (Curso físico)
-    └── Taller.java                        (Taller corto)
+├── src/
+│   ├── Main.java                          (Programa de demostración)
+│   ├── abstractas/
+│   │   └── Content.java                   (Clase abstracta padre)
+│   ├── interfaces/
+│   │   ├── Calificable.java               (Interface de calificaciones)
+│   │   ├── Certificable.java              (Interface de certificados)
+│   │   └── Reservable.java                (Interface de reservas)
+│   └── implementaciones/
+│       ├── Chef.java                      (Clase auxiliar)
+│       ├── CursoOnline.java               (Curso virtual)
+│       ├── CursoPresencial.java           (Curso físico)
+│       └── Taller.java                    (Taller corto)
+└── docs/
+    └── ANALISIS.md                        (Análisis de diseño)
 ```
 
 ---

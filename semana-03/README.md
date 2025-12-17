@@ -47,13 +47,13 @@ Refactorización completa del código aplicando encapsulación, sobrecarga de co
 ### Compilación
 
 ```bash
-javac *.java
+javac src/*.java
 ```
 
 ### Ejecución
 
 ```bash
-java Main
+java -cp src Main
 ```
 
 ## Salida Esperada

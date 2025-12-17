@@ -13,14 +13,16 @@ Esta semana aplicamos los conceptos de **polimorfismo** al sistema de Escuela de
 ```
 semana-05/
 ├── README.md
-├── Content.java              # Clase abstracta padre (mejorada)
-├── CursoOnline.java          # Subclase con @Override
-├── CursoPresencial.java      # Subclase con @Override
-├── Taller.java               # Subclase con @Override
-├── Chef.java                 # Clase auxiliar
-├── EscuelaCocina.java        # Clase gestora con sobrecarga y métodos polimórficos
-├── Main.java                 # Demostración completa de polimorfismo
-└── POLIMORFISMO.md           # Documento de análisis
+├── src/
+│   ├── Content.java              # Clase abstracta padre (mejorada)
+│   ├── CursoOnline.java          # Subclase con @Override
+│   ├── CursoPresencial.java      # Subclase con @Override
+│   ├── Taller.java               # Subclase con @Override
+│   ├── Chef.java                 # Clase auxiliar
+│   ├── EscuelaCocina.java        # Clase gestora con sobrecarga y métodos polimórficos
+│   └── Main.java                 # Demostración completa de polimorfismo
+└── docs/
+    └── POLIMORFISMO.md           # Documento de análisis
 ```
 
 ## 🎯 Conceptos Implementados
@@ -45,12 +47,12 @@ semana-05/
 
 ### Compilar todos los archivos
 ```bash
-javac *.java
+javac src/*.java
 ```
 
 ### Ejecutar el programa
 ```bash
-java Main
+java -cp src Main
 ```
 
 ## 📊 Salida Esperada

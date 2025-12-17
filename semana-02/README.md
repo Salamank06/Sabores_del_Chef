@@ -42,13 +42,13 @@ Implementación de clases relacionadas con el dominio de la Escuela de Cocina "S
 ### Compilación
 
 ```bash
-javac *.java
+javac src/*.java
 ```
 
 ### Ejecución
 
 ```bash
-java Main
+java -cp src Main
 ```
 
 ## Salida Esperada
