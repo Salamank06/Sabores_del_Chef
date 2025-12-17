@@ -1,8 +1,5 @@
 # Semana 06: Abstracción e Interfaces
 
-## Dominio
-**Escuela de Cocina - Sabores del Chef**
-
 ## Descripción
 Sistema de gestión de contenidos educativos para una escuela de cocina que implementa abstracción mediante clases abstractas e interfaces para representar diferentes tipos de cursos y sus capacidades específicas. El sistema aplica principios SOLID para lograr un diseño flexible, extensible y mantenible.
 
